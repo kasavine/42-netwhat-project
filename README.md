@@ -46,7 +46,19 @@ The project is an introduction to network problematics
    * TCP has a **(20-80)** bytes variable length header.
    * TCP is **heavy-weight**.
 
-9. What is **UDP**
+9. What is **UDP** - USER DATAGRAM PROTOCOL
+
+   * UDP is the **Datagram oriented protocol**. 
+   * This is because there is no overhead for opening a connection, maintaining a connection, and terminating a connection. 
+   * UDP is **efficient for broadcast** and multicast type of network transmission.
+   * The **delivery of data to the destination cannot be guaranteed** in UDP.
+   * UDP has only the **basic error checking mechanism** using checksums.
+   * There is **no sequencing of data** in UDP. If ordering is required, it has to be managed by the application layer.
+   * UDP is **faster, simpler and more efficient** than TCP.
+   * There is **no retransmission of lost packets** in User Datagram Protocol (UDP).
+   * UDP has a **8 bytes fixed length** header.
+   * UDP is **lightweight**.
+
 10. What are the **network layers**
 11. What is the **OSI model**
 12. What is a **DHCP server** and the **DHCP protocol**
