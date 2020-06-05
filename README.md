@@ -12,22 +12,31 @@ The project is an introduction to network problematics
    * **The network ID** (or network address): Identifies the network on which a host computer can be found.
    * **The host ID** (or host address): Identifies a specific device on the network indicated by the network ID.
 
+   whatismyipaddress.com  - check what is your IP Address.
+
+2. What is a **Netmask**
+
+   A netmask is a 32-bit binary mask used to divide an IP address into subnets and specify the network's available hosts.
+
+   In a netmask, two of the possible addresses, represented as the final byte, are always pre-assigned and unavailable for custom assignment. For example, in 255.255.225.0, "0" is the assigned network address.
+
+3. What is the **subnet of an IP with Netmask**
+
+   The subnet mask is used by the TCP/IP protocol to determine whether a host is on the local subnet or on a remote network.
+
+4. What is the **broadcast address of a subnet**
+5. What are the **different ways to represent an ip address** with the Netmask
+
    IP addresses are usually represented in a format known as dotted-decimal notation. In dotted-decimal notation, each group of eight bits — an octet — is represented by its decimal equivalent.
 
    Computers identify websites by their IP addresses. Fortunately for you, they typically go by their names, like www.whatismyipaddress.com.
 
-   whatismyipaddress.com  - check what is your IP Address.
-
-2. What is a **Netmask**
-3. What is the **subnet of an IP with Netmask**
-4. What is the **broadcast address of a subnet**
-5. What are the **different ways to represent an ip address** with the Netmask
 6. What are the differences between **public** and **private** IPs
 7. What is a **class** of IP addresses
 
    The IP protocol defines five different address classes: A, B, C, D, and E.
 
-| Class         | first bits    | --            | Networks     | Hosts        |
+| Class         | first bits    | Range         | Networks     | Hosts        |
 |:-------------:|:-------------:|:-------------:|:------------:|:------------:|
 | A             | 0xxx          | 1-126.x.y.z   | 126          | 16,777,214   |
 | B             | 10xx          | 128-191.x.y.z | 16384        | 65534        |
