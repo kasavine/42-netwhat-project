@@ -37,21 +37,14 @@ The project is an introduction to network problematics
 
 8. What is **TCP** - TRANSMISSION CONTROL PROTOCOL
 
-   TCP is a connection-oriented protocol. Connection-orientation means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data.
-
-   TCP is reliable as it guarantees delivery of data to the destination router.
-
-   TCP provides extensive error checking mechanisms. It is because it provides flow control and acknowledgment of data.
-
-   Sequencing of data is a feature of Transmission Control Protocol (TCP). This means that packets arrive in-order at the receiver.
-
-   TCP is comparatively slower than UDP.
-
-   Retransmission of lost packets is possible in TCP, but not in UDP.
-
-   TCP has a (20-80) bytes variable length header.
-
-   TCP is heavy-weight.
+   * TCP is **a connection-oriented protocol**. Connection-orientation means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data.
+   * TCP is **reliable** as it guarantees delivery of data to the destination router.
+   * TCP **provides extensive error checking mechanisms**. It is because it provides flow control and acknowledgment of data.
+   * **Sequencing of data** is a feature of Transmission Control Protocol (TCP). This means that **packets arrive in-order** at the receiver.
+   * TCP is **comparatively slower** than UDP.
+   * **Retransmission of lost packets is possible** in TCP, but not in UDP.
+   * TCP has a **(20-80)** bytes variable length header.
+   * TCP is **heavy-weight**.
 
 9. What is **UDP**
 10. What are the **network layers**
