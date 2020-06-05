@@ -20,7 +20,7 @@ The project is an introduction to network problematics
    The IP protocol defines five different address classes: A, B, C, D, and E.
 
 | Class         | first bits    | --            | Networks     | Hosts        |
-| ------------- |:-------------:|:-------------:|:------------:|--------------|
+|:-------------:|:-------------:|:-------------:|:------------:|:------------:|
 | A             | 0xxx          | 1-126.x.y.z   | 126          | 16,777,214   |
 | B             | 10xx          | 128-191.x.y.z | 16384        | 65534        |
 | C             | 110x          | 192-223.x.y.z | 2,097,152    | 254          |
